@@ -4,7 +4,7 @@
 </h1>
 
 
-#### [See it Live](https://govindcodes.github.io/ValentineWish/)
+#### [See it Live]([(https://valentine-day-girl-version.vercel.app/))
 
 ## Make your own version :computer:
 
@@ -23,8 +23,3 @@ If you have any idea to make it more interesting, feel free to send a PR, or cre
 
 Stay happy and keep the people you care about happy. :)
 
-#### OwnerShip
- The animations used in the Repository is created by Afiur Rahman Fahim(faahim).:smile:
-=======
-# Valentine-Day-Girl-Version
->>>>>>> 4771ab779557a66188e5cfcd148a0ec64bd92b58
