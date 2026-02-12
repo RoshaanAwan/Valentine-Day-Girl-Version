@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
     Valentine's Wish
 </h1>
@@ -26,3 +27,6 @@ Stay happy and keep the people you care about happy. :)
 
 #### OwnerShip
  The animations used in the Repository is created by Afiur Rahman Fahim(faahim).:smile:
+=======
+# Valentine-Day-Girl-Version
+>>>>>>> 4771ab779557a66188e5cfcd148a0ec64bd92b58

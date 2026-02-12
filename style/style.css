@@ -4,7 +4,56 @@ html {
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Romantic Background Music Styles */
+#romantic-music {
+  display: none;
+}
+
+.music-control {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.music-btn {
+  background: rgba(255, 105, 180, 0.9);
+  border: 2px solid rgba(255, 182, 193, 0.8);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+}
+
+.music-btn:hover {
+  background: rgba(255, 20, 147, 0.95);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+}
+
+.music-btn.playing {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 25px rgba(255, 105, 180, 0.8);
+  }
+  100% {
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  }
 }
 
 .container {
@@ -51,6 +100,28 @@ body {
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+}
+
+.music-intro-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
+}
+
+.music-intro {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: rgba(255, 105, 180, 0.9);
+  margin: 0;
+  font-style: italic;
+}
+
+.two-section {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20vh;
 }
 
 .three {
@@ -120,6 +191,7 @@ body {
   display: inline-block;
   max-width: 45%;
   height: auto;
+  border-radius: 20px;
 }
 
 .six .hat {
@@ -297,4 +369,20 @@ body {
     font-size: 1.5rem;
     font-weight: lighter;
   }
+}
+
+/* Valentine's Day Background Canvas Styles */
+#valentine-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  display: block;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
 }
